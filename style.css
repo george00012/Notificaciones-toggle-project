@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&display=swap');
+
+/*principales*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #272343;
+    font-family: 'Kanit', sans-serif;
+}
+
+main {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/*img*/
+.image {
+    width: 3rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+/*principal*/
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.tres {
+    background-color: rgb(13, 13, 161);
+    padding: 0 0.8rem;
+    color: #fff;
+    border-radius: 0.6rem;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.cont-general {
+    display: grid;
+    grid-template-columns: 5rem auto;
+    padding: 0.6rem;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+
+.parrafo-cinco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comentario {
+    width: 5rem;
+}
+
+.comentario img {
+    margin: 0.3rem 0.2rem 0 0.5rem;
+    width: 3rem;
+}
+
+.lorem {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border-radius: 0.5rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+    width: fit-content;
+    display: none;
+}
+
+#volver,
+#leerMas {
+    font-size: 1.4rem;
+    background-color: rgb(182, 195, 211);
+    border: none;
+    background: #b4f1f1;
+}
+
+
+.contenido-uno,
+.contenido-dos,
+.contenido-tres {
+    background: #bae8e8;
+}
+
+.fecha {
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+    font-weight: 700;
+}
+
+.chess {
+    color: rgb(28, 28, 179);
+    font-size: 1.05rem;
+}
+
+.first {
+    font-weight: 700;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(12, 12, 71);
+}
+
+.rojo {
+    font-size: 0.6rem;
+    display: block;
+}
+
+.contador {
+    color: red;
+}
+
+@media (min-width: 570px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        width: 40rem;
+    }
+
+    .comentario {
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 890px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        width: 55rem;
+        padding: 0 1rem;
+    }
+
+}
